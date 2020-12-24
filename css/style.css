@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.banner_wrapper,
+.education_wrapper,
+.portfolio_wrapper {
+  background-color: lightgray;
+}
+.banner_inner {
+  background-color: darkgray;
+}
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.contact_wrapper {
+  background-color: #020216;
+}
+.icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: white;
+  font-size: 40px;
+  text-align: center;
+}
+.icon:hover {
+  background-color: #020216;
+  cursor: pointer;
+}
